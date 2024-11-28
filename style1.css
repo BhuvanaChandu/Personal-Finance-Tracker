@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(243, 124, 124);
+    color: white;
+}
+.container{
+    width: 900px;
+    padding: 20px; 
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid  transparent;
+    background:linear-gradient(yellow,green);
+    box-shadow: 10px 10px 5px transparent;
+    opacity: 1.0;
+    z-index: 5;
+}
+
+h1{
+    text-align: center;
+    opacity: 5.0;
+}
+input, select{
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    opacity: 5.0;
+}
+button{
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
